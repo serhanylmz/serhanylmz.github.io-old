@@ -1,12 +1,18 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Get the form data
-  $name = $_POST["name"];
-  $email = $_POST["email"];
-  $message = $_POST["message"];
+  $name = htmlspecialchars($_POST["name"]);
+  $email = htmlspecialchars($_POST["email"]);
+  $message = htmlspecialchars($_POST["message"]);
+
+  // Validate the email address
+  if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    echo "Invalid email address. Please try again.";
+    exit;
+  }
 
   // Send the email
-  $to = "srhnylmz14@gmail.com"; // Replace with your email address
+  $to = "youremail@example.com"; // Replace with your email address
   $subject = "New message from your website";
   $body = "Name: $name\nEmail: $email\nMessage: $message";
   $headers = "From: $email";
