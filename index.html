@@ -116,6 +116,13 @@
 										</ul>
 									  </div>
 									</div>
+									<script>
+									window.onbeforeunload = () => {
+										for(const form of document.getElementsByTagName('form')) {
+										  form.reset();
+										}
+									  }
+									  </script>
 								  </form>								  
 							</div>
 							<div class="col-4 col-12-small">
