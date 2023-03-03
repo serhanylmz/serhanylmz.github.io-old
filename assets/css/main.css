@@ -3241,15 +3241,15 @@ input, select, textarea {
 		font-size: 18px;
 		border: none;
 		outline: none;
-		background-color: red;
-		color: white;
+		background-color: rgb(210, 60, 65);
+		color: rgb(255, 255, 255);
 		cursor: pointer;
 		padding: 15px;
 		border-radius: 4px;
 	}
 
 	#btnUp:hover {
-		background-color: #555;
+		background-color: #555555;
 	}
 	  
 	  .slide-up {
