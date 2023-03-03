@@ -2213,6 +2213,8 @@ input, select, textarea {
 	ul.labeled-icons {
 		list-style: none;
 		padding: 0;
+		overflow-wrap: break-word;
+		word-wrap: break-word;
 	}
 
 		ul.labeled-icons li {
@@ -3219,3 +3221,8 @@ input, select, textarea {
 			}
 
 	}
+	.container {
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+	  }
+	  
