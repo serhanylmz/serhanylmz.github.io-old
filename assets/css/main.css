@@ -3221,6 +3221,7 @@ input, select, textarea {
 			}
 
 	}
+	
 	@keyframes slideUp {
 		0% {
 		  opacity: 1;
