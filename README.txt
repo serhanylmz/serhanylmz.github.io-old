@@ -1,33 +1,19 @@
-Strata by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Welcome! This is my personal website, which I based on the Strata template of HTML5 UP and have changed greatly according to my own needs.
 
+Doing this project has given me great experience in frontend development, and some backend as well.
 
-A simple, minimalist template that actually began life as an unused redesign of my
-personal site. Includes a (configurable) parallax background effect, Poptrox-powered
-lightbox gallery, a bunch of pre-styled elements, and Sass sources for the Sass-inclined.
+I've practiced my HTML and CSS skills, and learnt Javascript and CSS on the way too :)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+You can visit my website at https://serhanyilmaz.me
 
-(* = Not included)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
-
-AJ
-aj@lkn.io | @ajlkn
-
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+Give it a look and contact me!
 
 
 Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
+	Template: Strata by HTML5 UP
 
 	Icons:
 		Font Awesome (fontawesome.io)
 
 	Other:
 		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
